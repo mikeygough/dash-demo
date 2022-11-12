@@ -1,6 +1,13 @@
 ## Dash Demo
 
+following along with the dash tutorial:
+https://dash.plotly.com/installation
+
 #### reference:
+
+dash core components: https://dash.plotly.com/dash-core-components
+
+dash html components: https://dash.plotly.com/dash-html-components
 
 #### virtual environments
 Create a Python3 Virtual Environment: 
