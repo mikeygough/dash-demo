@@ -13,7 +13,8 @@ app.layout = html.Div([
     html.Div(id='output-state')
 ])
 
-
+# note that we're triggering the callback by listening to the n_clicks
+# property of the html.Button component.
 @app.callback(Output('output-state', 'children'),
               Input('submit-button-state', 'n_clicks'),
               State('input-1-state', 'value'),
